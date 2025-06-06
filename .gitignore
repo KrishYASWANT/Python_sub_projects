@@ -1,2 +1,14 @@
 # Ignore virtual environment
 env/
+
+# Ignore compiled files
+*.log
+*.sqlite3
+
+# Ignore Django static/media
+media/
+staticfiles
+
+# Ignore migrations (optional)
+**/migrations/*.py
+!**/migrations/__init__.py
